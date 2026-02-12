@@ -1,1 +1,1 @@
-Welcome to Galacti!
+# Welcome to Galacti!
