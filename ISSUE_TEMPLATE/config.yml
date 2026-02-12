@@ -1,0 +1,11 @@
+issue_templates:
+  - name: "Bug Report"
+    description: "Report a bug in the system."
+    title: "[Bug]: "
+    labels: [bug]
+    body: "./ISSUE_TEMPLATE/bug_report.yml"
+  - name: "Feature Request"
+    description: "Suggest a new feature."
+    title: "[Feature]: "
+    labels: [enhancement]
+    body: "./ISSUE_TEMPLATE/feature_request.yml"   
