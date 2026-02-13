@@ -1,0 +1,19 @@
+name: "Documentation"
+description: Suggest improvements or corrections to docs
+title: "[Docs]: "
+labels: ["documentation"]
+
+body:
+  - type: textarea
+    id: issue
+    attributes:
+      label: What is unclear or incorrect?
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested Improvement
+    validations:
+      required: false
